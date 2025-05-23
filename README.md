@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Meal Monkey Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the admin panel for the Meal Monkey application, which allows admins to manage the menu and orders.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Snapshots](#snapshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The admin panel provides the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Admins can log in to the admin panel using their credentials.
+- Admins can manage the menu, including adding and removing items and updating prices.
+- Admins can view and manage orders, including marking orders as completed and canceling orders. (Not in production yet👀)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The admin panel is built using the following technologies:
 
-### `npm run build`
+- Node.js for the server-side application
+- Express.js for building the RESTful API
+- MongoDB for the database
+- React.js for the client-side application
+- React Context API for state management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install and run the admin panel locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+```
+git clone https://github.com/chetan-2002/AdminPanelShoppingApp.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd AdminPanelShoppingApp
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the client:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+4. Open the admin panel in your web browser:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000/
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To use the admin panel, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Log in to the admin panel using your credentials.
 
-### Analyzing the Bundle Size
+2. Manage the menu by adding and removing items and updating prices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. View and manage orders by marking orders as completed and cancelling orders. (Not in production yet👀)
 
-### Making a Progressive Web App
+## Snapshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. login and Signup Page
 
-### Advanced Configuration
+![image](https://user-images.githubusercontent.com/77783033/222412319-6425aadd-8584-4911-b5ba-a1f9ad7784a4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Landing Page
 
-### Deployment
+![image](https://user-images.githubusercontent.com/77783033/222412880-0daaf67e-4d2b-4140-a3dd-333168a8f5c1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Adding a new product 
 
-### `npm run build` fails to minify
+![image](https://user-images.githubusercontent.com/77783033/222413040-c2290de7-c735-4c6d-868a-1c46dec241f5.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Deleting a product
+
+![image](https://user-images.githubusercontent.com/77783033/222413111-f0725986-be46-4eb2-b38a-570a0d87e13e.png)
+
+5. Updating Product
+
+![image](https://user-images.githubusercontent.com/77783033/222413204-da46bf9f-14c5-4f80-9fd2-c589fbc474a8.png)
+
+6. Adding a new category
+
+![image](https://user-images.githubusercontent.com/77783033/222413304-2a531fe6-aa61-4664-bffd-432364138fcd.png)
+
+7. Deleting a category
+
+![image](https://user-images.githubusercontent.com/77783033/222413432-9ac837cc-7c06-48e3-81c3-508058515377.png)
+
+## Contributing
+
+If you would like to contribute to the admin panel, feel free to submit a pull request. Before submitting a pull request, please make sure to run the tests and ensure that your code follows the project's coding standards.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
